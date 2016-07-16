@@ -2,7 +2,7 @@
 Examples that use the libcoap library <br/>
 **Author** Nikos Fotiou <br/>
 **Licence** You are free to use this code in any way you want. No credit is required. <br/>
-**More Information" http://respected-professor.blogspot.gr/2016/07/libcoap-examples.html
+**More Information** http://respected-professor.blogspot.gr/2016/07/libcoap-examples.html
 
 
 #libcoap installation#
@@ -16,7 +16,7 @@ Examples that use the libcoap library <br/>
 #Examples#
 ##Piggybacked##
 Sends a confirmable request to a server. The reserver responds with a "Hello
-World!" message. The response is piggybacked to the ACK.
+World!" message. The response is piggybacked in the ACK message.
 
 ###Compiling and running###
 * make all
