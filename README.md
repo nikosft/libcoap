@@ -1,14 +1,24 @@
-# libcoap
-Examples that use the libcoap library
+#About
+Examples that use the libcoap library <br/>
+**Author** Nikos Fotiou <br/>
+**Licence** You are free to use this code in any way you want. No credit is required. <br/>
+**More Information" http://respected-professor.blogspot.gr/2016/07/libcoap-examples.html
+
+
 #libcoap installation#
 * git clone https://github.com/obgm/libcoap.git
 * cd libcoap
-* configure --disable-examples
+* autogen.sh
+* ./configure --disable-examples
 * make
 * sudo make install
 
 #Examples#
-##Hello world server##
-This coap server listens on port 4000 and responds with "Hello World!" every time "index" is requested. You can compile it using the following command:
+##Piggybacked##
+Sends a confirmable request to a server. The reserver responds with a "Hello
+World!" message. The response is piggybacked to the ACK.
 
-* gcc  hello-world-server.c -I /usr/local/include/coap/ -O2 -D_GNU_SOURCE -DWITH_POSIX -lcoap-1  -g -o  hello-world-server
+###Compiling and running###
+* make all
+* ./server
+* ./client
