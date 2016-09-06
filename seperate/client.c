@@ -49,6 +49,7 @@ int main(int argc, char* argv[])
 	request->hdr->type = COAP_MESSAGE_CON;
 	request->hdr->id   = coap_new_message_id(ctx);
 	request->hdr->code = get_method;
+	coap_add_token(request, 4,"abcd");
 	coap_add_option(request, COAP_OPTION_URI_PATH, uri.path.length, uri.path.s);
 	/* Set the handler and send the request */
 	coap_register_response_handler(ctx, message_handler);
