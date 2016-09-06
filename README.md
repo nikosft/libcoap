@@ -23,9 +23,9 @@ World" message. The response is piggybacked to the ACK (RFC 7252, Section 5.2.1)
 * ./server
 * ./client
 
-##Piggybacked##
+##Seperate##
 Sends a confirmable request to a server. The server responds with an ACK and afer
-2 sec. it sends a "Hello World" message. (RFC 7252, Section 5.2.2).
+2 seconds it sends a "Hello World" message. (RFC 7252, Section 5.2.2).
 
 ###Compiling and running###
 * make all
