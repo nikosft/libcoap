@@ -2,7 +2,7 @@
 Examples that use the libcoap library <br/>
 **Author** Nikos Fotiou <br/>
 **Licence** You are free to use this code in any way you want. No credit is required. <br/>
-**More Information** http://respected-professor.blogspot.gr/2016/07/libcoap-examples.html
+**More Information** https://respected-professor.blogspot.gr/2016/07/libcoap-examples.html
 
 
 #libcoap installation#
