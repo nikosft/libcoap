@@ -32,3 +32,10 @@ Sends a confirmable request to a server. The server responds with an ACK and afe
 * ./server
 * ./client
 
+##Riot##
+An example of libcoap usage with the riot operating system (https://riot-os.org/).
+It creates a default resource that outputs "Hello World!"
+
+###Compiling and running###
+Follow the standard process for compiling and running a riot application. 
+For more information visit http://respected-professor.blogspot.gr/2016/11/a-coap-server-for-riot-operating-system.html
