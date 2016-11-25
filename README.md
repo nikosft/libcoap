@@ -38,4 +38,4 @@ It creates a default resource that outputs "Hello World!"
 
 ###Compiling and running###
 Follow the standard process for compiling and running a riot application. 
-For more information visit http://respected-professor.blogspot.gr/2016/11/a-coap-server-for-riot-operating-system.html
+For more information visit https://respected-professor.blogspot.gr/2016/11/a-coap-server-for-riot-operating-system.html
