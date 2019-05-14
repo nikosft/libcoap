@@ -23,6 +23,14 @@ World" message. The response is piggybacked to the ACK (RFC 7252, Section 5.2.1)
 * ./server
 * ./client
 
+## POST ##
+Sends a POST request to a server. The server prints the posted data.
+
+### Compiling and running ###
+* make all
+* ./server
+* ./client
+
 ## Seperate ##
 Sends a confirmable request to a server. The server responds with an ACK and afer
 2 seconds it sends a "Hello World" message. (RFC 7252, Section 5.2.2).
